@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment-03</title>
+    <!-- Google font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Daisy + and tailwind css -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        .Sora {
+
+            font-family: "Sora", serif;
+        }
+    </style>
+
+    <!-- <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        Green: "#569b21",
+                    }
+                }
+            }
+        }
+    </script> -->
+
+</head>
+
+<body class="Sora">
+    <!-- header -->
+    <header class="bg-gradient-to-b from-[#FFf] to-[#f2f0ea]">
+        <nav class="lg:px-8 md:container mx-auto">
+            <div class="navbar">
+                <div class="flex-1">
+                    <!-- <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a>Product</a></li>
+                            <li>
+                                <a>Services</a>
+                            </li>
+                            <li><a>Contact us</a></li>
+                        </ul>
+                    </div> -->
+                    <img class="w-32 h-auto my-8 ml-3" src="./Assignment_03_Category_0002/c2-assets/logo-header.png"
+                        alt="">
+                </div>
+                <!-- center text -->
+                <div class="mr-[120px] hidden md:hidden lg:flex text-xl font-medium">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Product</a></li>
+                        <li>
+                            <a>Services</a>
+                        </li>
+                        <li><a>Contact us</a></li>
+                    </ul>
+                </div>
+                <!-- btn -->
+                <div class="hidden md:hidden lg:flex">
+                    <div class="icon flex space-x-3">
+                        <h1><i class="fa fa-search" aria-hidden="true"></i></h1>
+                        <h1><i class="fa-solid fa-cart-shopping"></i></h1>
+                    </div>
+                    <div class="ml-4 space-x-2">
+                        <button class="btn btn-outline">Login</button>
+                        <button class="btn btn-success Green text-white">Register</button>
+                    </div>
+                </div>
+                <div class="icon font-bold text-3xl mr-3 md:hidden lg:hidden">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+            <!-- banner -->
+            <div class="banner">
+                <div class="banner-text text-center">
+                    <h1 class="font-bold text-3xl">Freshness <span class="text-green-500">You Can <br>Count</span> On,
+                        Prices You’ll Love!</h1>
+                    <p class="font-normal my-4 px-4">Shop your daily essentials at unbeatable prices. From fresh produce
+                        to pantry <br> staples, we’ve got
+                        you covered every day!</p>
+                </div>
+                <div class="flex justify-center items-center">
+                    <img class="w-66 h-55 object-cover"
+                        src="./Assignment_03_Category_0002/c2-assets/hero-vegetables.png" alt="">
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- main -->
+    <main class="md:container mx-auto">
+        <!-- service-section title -->
+        <div class="px-8">
+            <div class="text-left mt-16">
+                <h1 class="font-bold text-3xl text-green-500">Services</h1>
+            </div>
+            <!-- 3 card service  -->
+            <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-4">
+                <div class="card-1 bg-[#EFEBE3] w-full shadow-xl mt-8 rounded-lg px-2">
+                    <div class="card-body text-center justify-center items-center">
+                        <div class="bg-white rounded-full p-4 mb-4"><img
+                                src="./Assignment_03_Category_0002/c2-assets/service.png" alt="">
+                        </div>
+                        <h2 class="font-bold">24/7 Services</h2>
+                        <p class="font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="card-2 bg-[#EFEBE3] w-full shadow-xl mt-8  rounded-lg">
+                    <div class="card-body text-center justify-center items-center">
+                        <div class="bg-white rounded-full p-4 mb-4"><img
+                                src="./Assignment_03_Category_0002/c2-assets/delivery.png" alt="">
+                        </div>
+                        <h2 class="font-bold">24/7 Services</h2>
+                        <p class="font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="card-3 bg-[#EFEBE3] w-full shadow-xl mt-8  rounded-lg">
+                    <div class="card-body text-center justify-center items-center">
+                        <div class="bg-white rounded-full p-4 mb-4"><img
+                                src="./Assignment_03_Category_0002/c2-assets/healthy.png" alt="">
+                        </div>
+                        <h2 class="font-bold">24/7 Services</h2>
+                        <p class="font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- footer -->
+    <footer></footer>
+</body>
+
+</html>
